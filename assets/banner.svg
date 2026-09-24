@@ -1,14 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" fill="none" role="img" aria-label="Canyon-Li — AI Agent Developer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0EA5E9"/>
-      <stop offset="0.5" stop-color="#6366F1"/>
-      <stop offset="1" stop-color="#A855F7"/>
-    </linearGradient>
+    <pattern id="dot-a" width="29" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.7" fill="#8e7bb8" opacity="0.2"/>
+    </pattern>
+    <pattern id="dot-b" width="37" height="37" patternUnits="userSpaceOnUse">
+      <circle cx="29" cy="11" r="1.7" fill="#f2d778" opacity="0.45"/>
+    </pattern>
+    <clipPath id="card">
+      <rect x="3" y="3" width="1180" height="276" rx="26"/>
+    </clipPath>
   </defs>
-  <rect width="1200" height="200" fill="url(#bg)"/>
-  <path d="M0 150 C 150 120, 300 175, 500 152 C 650 134, 750 165, 900 150 C 1020 138, 1120 158, 1200 148 L 1200 200 L 0 200 Z" fill="#FFFFFF" fill-opacity="0.14"/>
-  <path d="M0 170 C 200 145, 400 190, 620 168 C 820 148, 1000 182, 1200 165 L 1200 200 L 0 200 Z" fill="#FFFFFF" fill-opacity="0.20"/>
-  <text x="600" y="92" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="54" font-weight="700" fill="#FFFFFF">Canyon-Li</text>
-  <text x="600" y="126" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#FFFFFF" fill-opacity="0.88">AI Agent Developer · Python / TypeScript / Swift</text>
+
+  <!-- hard offset shadow, then the card itself -->
+  <rect x="17" y="19" width="1180" height="276" rx="26" fill="#8e7bb8"/>
+  <rect x="3" y="3" width="1180" height="276" rx="26" fill="#f7f1e5" stroke="#282522" stroke-width="3"/>
+
+  <g clip-path="url(#card)">
+    <rect x="3" y="3" width="1180" height="276" fill="url(#dot-a)"/>
+    <rect x="3" y="3" width="1180" height="276" fill="url(#dot-b)"/>
+  </g>
+
+  <!-- label pill, tilted a touch, with its own hard shadow -->
+  <g transform="rotate(-1.5 64 64)">
+    <rect x="67" y="49" width="228" height="36" rx="7" fill="#282522"/>
+    <rect x="64" y="46" width="228" height="36" rx="7" fill="#fff2b8" stroke="#282522" stroke-width="2"/>
+    <text x="178" y="70" text-anchor="middle" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="16" font-weight="700" fill="#282522" letter-spacing="0.6">AI Agent Developer</text>
+  </g>
+
+  <circle cx="1075" cy="64" r="5.5" fill="none" stroke="#282522" stroke-width="2.5"/><circle cx="1095" cy="64" r="5.5" fill="none" stroke="#282522" stroke-width="2.5"/><circle cx="1115" cy="64" r="5.5" fill="none" stroke="#282522" stroke-width="2.5"/>
+
+  <line x1="64" y1="102" x2="1119" y2="102" stroke="#d8cdbb" stroke-width="2" stroke-dasharray="9 8"/>
+
+  <text x="64" y="196" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="74" font-weight="800" fill="#282522" letter-spacing="-1.5">Canyon-Li</text>
+  <text x="64" y="244" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="21" fill="#70695f">Python / TypeScript · Building Peregrine</text>
 </svg>
