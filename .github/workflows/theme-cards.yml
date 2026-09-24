@@ -1,0 +1,48 @@
+name: Refresh Profile Cards
+
+# The stats, streak and trophy cards are third-party services that cannot be
+# themed to the profile palette (dooboo hardcodes a #26272D background) and have
+# no dark variant. This job pulls them down, recolours them, wraps them in the
+# hand-drawn frame and commits the result to assets/, so the README can point at
+# self-hosted SVGs and switch on prefers-color-scheme.
+#
+# Triggering on scripts/** (not on assets/**) keeps the job's own commits from
+# re-triggering it.
+
+on:
+  schedule:
+    - cron: "30 */6 * * *" # every 6 hours, offset from the snake job
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/theme-cards.yml"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # theme_cards.py is stdlib-only, so there is nothing to install.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch, recolour and frame the cards
+        run: python scripts/theme_cards.py
+
+      - name: Commit changed assets
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "Nothing changed — keeping the committed assets."
+          else
+            git commit -m "chore: refresh themed profile cards"
+            git push
+          fi
