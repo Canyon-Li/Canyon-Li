@@ -32,5 +32,5 @@
   <line x1="64" y1="102" x2="1119" y2="102" stroke="#4a4234" stroke-width="2" stroke-dasharray="9 8"/>
 
   <text x="64" y="196" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="74" font-weight="800" fill="#eee6d8" letter-spacing="-1.5">Canyon-Li</text>
-  <text x="64" y="244" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="21" fill="#a89e8d">Python / TypeScript · Building Peregrine</text>
+  <text x="64" y="244" font-family='"Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif' font-size="21" fill="#a89e8d">Python / TypeScript · Auditable agents, explainable systems</text>
 </svg>

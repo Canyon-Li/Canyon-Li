@@ -26,7 +26,7 @@ ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
 NAME = "Canyon-Li"
 TAGLINE = "AI Agent Developer"
-SUBHEAD = "Python / TypeScript · Building Peregrine"
+SUBHEAD = "Python / TypeScript · Auditable agents, explainable systems"
 COLOPHON = "✦ Canyon-Li · AI Agent Developer ✦"
 
 BANNER_W, BANNER_H = 1200, 310
