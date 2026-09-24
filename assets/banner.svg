@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <path d="M0 150 C 150 120, 300 175, 500 152 C 650 134, 750 165, 900 150 C 1020 138, 1120 158, 1200 148 L 1200 200 L 0 200 Z" fill="#FFFFFF" fill-opacity="0.14"/>
+  <path d="M0 170 C 200 145, 400 190, 620 168 C 820 148, 1000 182, 1200 165 L 1200 200 L 0 200 Z" fill="#FFFFFF" fill-opacity="0.20"/>
+  <text x="600" y="92" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="54" font-weight="700" fill="#FFFFFF">Canyon-Li</text>
+  <text x="600" y="126" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#FFFFFF" fill-opacity="0.88">AI Agent Developer · Python / TypeScript / Swift</text>
+</svg>
