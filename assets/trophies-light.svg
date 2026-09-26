@@ -356,7 +356,7 @@
       </g>
       <g id="editTitleTextGroup00">
 <g id ="badgeTitleTextGroupB00" opacity="1">
-<text id="badgeTitleB00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">undefined</text>
+<text id="badgeTitleB00" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">Commits</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup00">
@@ -725,7 +725,7 @@
       </g>
       <g id="editTitleTextGroup01">
 <g id ="badgeTitleTextGroupB01" opacity="1">
-<text id="badgeTitleB01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">undefined</text>
+<text id="badgeTitleB01" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">Pull requests</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup01">
@@ -996,7 +996,7 @@
       </g>
       <g id="editTitleTextGroup02">
 <g id ="badgeTitleTextGroupB-02" opacity="1">
-<text id="badgeTitleB-02" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">undefined</text>
+<text id="badgeTitleB-02" x="62" y="82" font-family="Inter, Sans-Serif" font-weight="700" font-size="11px" dominant-baseline="middle" text-anchor="middle" fill="#70695f">Repositories</text>
 </g>
       </g>
       <g id="editSubtitleTextGroup02">

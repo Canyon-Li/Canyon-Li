@@ -273,22 +273,22 @@
   <!-- 100% of width = 300 -->
   <g id="mostUsedLanguageLine" clip-path="url(#mostUsedLanguageLineClipper)">
     <g id="mostUsedLanguageLine1" opacity="1">
-      <rect class="langType1" x="24" y="140" width="288" height="2"/>
+      <rect class="langType1" x="24" y="140" width="291" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine2" opacity="1">
-      <rect class="langType2" x="312" y="140" width="6" height="2"/>
+      <rect class="langType2" x="315" y="140" width="6" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine3" opacity="1">
-      <rect class="langType3" x="318" y="140" width="3" height="2"/>
+      <rect class="langType3" x="321" y="140" width="3" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine4" opacity="1">
-      <rect class="langType4" x="321" y="140" width="0" height="2"/>
+      <rect class="langType4" x="324" y="140" width="0" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine5" opacity="1">
-      <rect class="langType5" x="321" y="140" width="0" height="2"/>
+      <rect class="langType5" x="324" y="140" width="0" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine6" opacity="1">
-      <rect class="langType6" x="321" y="140" width="0" height="2"/>
+      <rect class="langType6" x="324" y="140" width="0" height="2"/>
     </g>
     
     <defs>
@@ -307,7 +307,7 @@
             <li id="mostUsedLanguageText1">
               <span class="textLangDot1">●</span>
               <span class="textLangStyle">Python</span>
-              <span class="textLangPercent">96%</span>
+              <span class="textLangPercent">97%</span>
             </li>
 
             <li id="mostUsedLanguageText2">
