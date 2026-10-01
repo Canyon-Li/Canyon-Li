@@ -230,10 +230,10 @@
 
   </g>
   <g id="currentStatsNumberText" opacity="1">
-      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">9</text>
+      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">13</text>
       <text id="currentStatsNumberTextType2" x="323" y="57.5" class="textCurrentStatsNumberStyle">2</text>
-      <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">8</text>
-      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">36</text>
+      <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">17</text>
+      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">41</text>
       <text id="currentStatsNumberTextType5" x="232" y="92.5" class="textCurrentStatsNumberStyle">0</text>
       <text id="currentStatsNumberTextType6" x="232" y="57.5" class="textCurrentStatsNumberStyle">0</text>
   </g>
@@ -256,7 +256,7 @@
   </g>
   <g id="text">
     <g id="averageText" opacity="1">
-      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">9</text>
+      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">12</text>
     </g>
     <g id="textAverageLabel" opacity="1">
       <text x="62" y="72" class="textLabelStyle">Average</text>
@@ -325,19 +325,19 @@
 
           <li id="mostUsedLanguageText4">
             <span class="textLangDot4">●</span>
-            <span class="textLangStyle">Jinja</span>
+            <span class="textLangStyle">PowerShell</span>
             <span class="textLangPercent">0%</span>
           </li>
 
           <li id="mostUsedLanguageText5">
             <span class="textLangDot5">●</span>
-            <span class="textLangStyle">CSS</span>
+            <span class="textLangStyle">Jinja</span>
             <span class="textLangPercent">0%</span>
           </li>
 
           <li id="mostUsedLanguageText6">
             <span class="textLangDot6">●</span>
-            <span class="textLangStyle">Dockerfile</span>
+            <span class="textLangStyle">CSS</span>
             <span class="textLangPercent">0%</span>
           </li>
         </ul>
