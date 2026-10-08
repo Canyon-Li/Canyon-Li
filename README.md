@@ -14,12 +14,24 @@
 
 ## ✦ 项目
 
-### [AuditronClaw](https://github.com/Canyon-Li/AuditronClaw) — 安全边界可度量的本地智能体
 
-对开源 agent 框架做安全审计与加固，用确定性断言的双维基准，把「我的 Agent 很安全」从自证声明变成可复现的数字。
 
-> **71.7% 注入拦截 · 0.0% 危害落地 · 76.9% 任务达成 · 0 安全误拦**
-> 99 条基准用例 × 338 项测试实测 · `Python` `LangGraph` `MIT`
+### [Peregrine](https://github.com/Canyon-Li/Peregrine) — 本地优先的对话式 Agent 工作台
+
+后端是一套完整的 Agent 运行时，前端是对话 / 任务可视化 / 设置界面，中间走 WebSocket RPC。工具审批门控、两层上下文压缩、长期记忆、技能沉淀都在里面，数据全部落在本地，不依赖外部托管服务。
+
+> **工具审批门控 · 两层上下文压缩 · 长期记忆 · 技能沉淀**
+> 数据全落本地（SQLite + `.peregrine/`）· `Python` `FastAPI` `React` `TypeScript` `MIT`
+
+### [JeRAG](https://github.com/Canyon-Li/JeRAG) — 按问题难度自适应分配算力的本地文献 RAG
+
+Je = Just Enough。检索轮数、查询改写、终止时机都由模型在运行时自己判断：简单题首轮即停，难题才继续追。面向全英文学术论文语料，多栏 / 表格 / 公式交给 Docling 结构化提取，难直接召回的内容用 VLM 生成 caption 单独成 chunk。
+
+> **简单题首轮即停 · 闲聊零检索 · 信息不够自动追问**
+> 正对单步 RAG 的三个结构性缺陷 · `Python` `Chroma` `BM25` `Docling` `MIT`
+
+同源于 [RAG-MCP](https://github.com/Canyon-Li/RAG-MCP)——把检索能力封装成带 3 个工具的 MCP server。JeRAG 复用了它的解析与检索层，在其上重写为 Agentic RAG，让检索轮数和终止时机改由模型自己判断。
+
 
 ### [Mini-Play](https://github.com/Canyon-Li/Mini-Play) — 把技术概念演成人人看得懂的小剧场
 
