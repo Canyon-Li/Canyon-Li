@@ -259,10 +259,10 @@
   <!-- 100% of width = 300 -->
   <g id="mostUsedLanguageLine" clip-path="url(#mostUsedLanguageLineClipper)">
     <g id="mostUsedLanguageLine1" opacity="1">
-      <rect class="langType1" x="24" y="140" width="258" height="2"/>
+      <rect class="langType1" x="24" y="140" width="246" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine2" opacity="1">
-      <rect class="langType2" x="282" y="140" width="30" height="2"/>
+      <rect class="langType2" x="270" y="140" width="42" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine3" opacity="1">
       <rect class="langType3" x="312" y="140" width="9" height="2"/>
@@ -293,13 +293,13 @@
             <li id="mostUsedLanguageText1">
               <span class="textLangDot1">●</span>
               <span class="textLangStyle">Python</span>
-              <span class="textLangPercent">86%</span>
+              <span class="textLangPercent">82%</span>
             </li>
 
             <li id="mostUsedLanguageText2">
               <span class="textLangDot2">●</span>
               <span class="textLangStyle">TypeScript</span>
-              <span class="textLangPercent">10%</span>
+              <span class="textLangPercent">14%</span>
             </li>
 
             <li id="mostUsedLanguageText3">
@@ -311,13 +311,13 @@
 
           <li id="mostUsedLanguageText4">
             <span class="textLangDot4">●</span>
-            <span class="textLangStyle">JavaScript</span>
+            <span class="textLangStyle">CSS</span>
             <span class="textLangPercent">0%</span>
           </li>
 
           <li id="mostUsedLanguageText5">
             <span class="textLangDot5">●</span>
-            <span class="textLangStyle">CSS</span>
+            <span class="textLangStyle">JavaScript</span>
             <span class="textLangPercent">0%</span>
           </li>
 
