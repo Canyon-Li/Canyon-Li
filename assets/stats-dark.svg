@@ -216,10 +216,10 @@
 
   </g>
   <g id="currentStatsNumberText" opacity="1">
-      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">50</text>
+      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">51</text>
       <text id="currentStatsNumberTextType2" x="323" y="57.5" class="textCurrentStatsNumberStyle">3</text>
       <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">21</text>
-      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">40</text>
+      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">44</text>
       <text id="currentStatsNumberTextType5" x="232" y="92.5" class="textCurrentStatsNumberStyle">90</text>
       <text id="currentStatsNumberTextType6" x="232" y="57.5" class="textCurrentStatsNumberStyle">0</text>
   </g>
@@ -242,7 +242,7 @@
   </g>
   <g id="text">
     <g id="averageText" opacity="1">
-      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">34</text>
+      <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">35</text>
     </g>
     <g id="textAverageLabel" opacity="1">
       <text x="62" y="72" class="textLabelStyle">Average</text>
@@ -265,16 +265,16 @@
       <rect class="langType2" x="270" y="140" width="42" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine3" opacity="1">
-      <rect class="langType3" x="312" y="140" width="9" height="2"/>
+      <rect class="langType3" x="312" y="140" width="12" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine4" opacity="1">
-      <rect class="langType4" x="321" y="140" width="0" height="2"/>
+      <rect class="langType4" x="324" y="140" width="3" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine5" opacity="1">
-      <rect class="langType5" x="321" y="140" width="0" height="2"/>
+      <rect class="langType5" x="327" y="140" width="0" height="2"/>
     </g>
     ,<g id="mostUsedLanguageLine6" opacity="1">
-      <rect class="langType6" x="321" y="140" width="0" height="2"/>
+      <rect class="langType6" x="327" y="140" width="0" height="2"/>
     </g>
     
     <defs>
@@ -305,14 +305,14 @@
             <li id="mostUsedLanguageText3">
               <span class="textLangDot3">●</span>
               <span class="textLangStyle">MDX</span>
-              <span class="textLangPercent">3%</span>
+              <span class="textLangPercent">4%</span>
             </li>
           
 
           <li id="mostUsedLanguageText4">
             <span class="textLangDot4">●</span>
             <span class="textLangStyle">CSS</span>
-            <span class="textLangPercent">0%</span>
+            <span class="textLangPercent">1%</span>
           </li>
 
           <li id="mostUsedLanguageText5">
@@ -323,7 +323,7 @@
 
           <li id="mostUsedLanguageText6">
             <span class="textLangDot6">●</span>
-            <span class="textLangStyle">Jinja</span>
+            <span class="textLangStyle">HTML</span>
             <span class="textLangPercent">0%</span>
           </li>
         </ul>
